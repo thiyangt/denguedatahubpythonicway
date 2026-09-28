@@ -1,3 +1,4 @@
 from .min_max import min_max
 from .get_pdflinks_srilanka import get_pdflinks_srilanka
 from .download_pdfwer_srilanka import download_pdfwer_srilanka
+from .convert_slwer_to_tidy import convert_slwer_to_tidy
