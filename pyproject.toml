@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "denguedatahub"
+version = "0.1.0"
+description = "A Python package providing dengue datasets and related utilities."
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "requests",
+    "beautifulsoup4"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
