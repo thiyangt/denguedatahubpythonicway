@@ -19,3 +19,6 @@ dependencies = [
 test = [
     "pytest"
 ]
+
+[tool.setuptools.package-data]
+denguedatahub = ["data/*.csv"]
