@@ -8,3 +8,4 @@ from .load_sl_province_districts import load_sl_province_districts
 from .load_china_annual_data import load_china_annual_data
 from .load_americas_annual_data import load_americas_annual_data
 from .load_cdc_dengue_countyyear import load_cdc_dengue_countyyear
+from .load_cdc_dengue_agesex import load_cdc_dengue_agesex
