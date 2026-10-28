@@ -6,3 +6,4 @@ from .load_sl_annual import load_sl_annual
 from .load_sl_sites import load_sl_sites
 from .load_sl_province_districts import load_sl_province_districts
 from .load_china_annual_data import load_china_annual_data
+from .load_americas_annual_data import load_americas_annual_data
