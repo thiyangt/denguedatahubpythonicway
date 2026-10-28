@@ -4,3 +4,9 @@ __pycache__/
 venv/
 .env
 .vscode/
+
+# Local R source datasets
+denguedatahub/data-raw/
+
+# Created by pytest automatically.
+.pytest_cache/
