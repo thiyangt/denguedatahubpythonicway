@@ -9,3 +9,4 @@ from .load_china_annual_data import load_china_annual_data
 from .load_americas_annual_data import load_americas_annual_data
 from .load_cdc_dengue_countyyear import load_cdc_dengue_countyyear
 from .load_cdc_dengue_agesex import load_cdc_dengue_agesex
+from .load_cdc_casesby_week import load_cdc_casesby_week
