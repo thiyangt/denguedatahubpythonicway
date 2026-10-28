@@ -21,4 +21,4 @@ test = [
 ]
 
 [tool.setuptools.package-data]
-denguedatahub = ["data/*.csv"]
+denguedatahub = ["data/*.csv", "data/cdc/*.csv"]
