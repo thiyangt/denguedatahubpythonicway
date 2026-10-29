@@ -3,77 +3,84 @@
 
 ## Introduction
 
-Dengue is a significant public health concern in many tropical and subtropical countries. Access to organized and reliable dengue-related datasets is essential for epidemiological research, disease surveillance, statistical analysis, and data-driven decision-making.
+Dengue is a major public health concern in tropical and subtropical regions. Access to organized and reliable dengue-related datasets is essential for epidemiological research, disease surveillance, statistical analysis, and data-driven decision-making.
 
 The **denguedatahubpythonicway** project aims to develop a Python implementation of the existing [denguedatahub R package](https://github.com/thiyangt/denguedatahub).
 
-The project focuses on translating relevant R functions into Python, integrating existing dengue-related datasets, and developing reusable Python functions for data loading, preprocessing, and transformation.
+The project focuses on converting R functions into Python, integrating existing dengue-related datasets, and developing reusable Python functions for data loading, preprocessing, and transformation.
 
-The implementation follows an incremental development approach, with unit testing used to verify the functionality of the converted components. The package currently includes data-loading modules for Sri Lanka, China, the Americas, and CDC-related dengue datasets.
+An important aspect of this implementation is maintaining data consistency between the original R datasets and their Python equivalents through systematic comparison, validation, and unit testing.
 
 This project is undertaken as part of **DSA 609 – Seminar Course**, MSc in Data Science and Artificial Intelligence, University of Sri Jayewardenepura, Sri Lanka.
 
 ## Objectives
 
-The main objective of this project is to develop a functional, tested, and reusable Python implementation of the existing denguedatahub R package.
+The main objective is to develop a functional, reliable, and reusable Python implementation of the existing denguedatahub R package.
 
 The specific objectives are:
 
-1. **Analyze the existing R package:** Examine the original R functions, datasets, dependencies, and package structure to identify the components required for Python implementation.
+1. **Analyze the existing R package:** Examine R functions, datasets, dependencies, and package structure to identify components for Python implementation.
 
-2. **Convert R functions into Python:** Implement equivalent Python functions while preserving the intended functionality of the original R implementations.
+2. **Convert R functions into Python:** Implement equivalent Python functionality while preserving the intended behavior of the original R functions.
 
-3. **Integrate dengue-related datasets:** Identify, organize, and load existing dengue datasets into Python-compatible data structures for further analysis.
+3. **Integrate dengue-related datasets:** Convert and organize existing dengue datasets into Python-compatible formats.
 
-4. **Implement data preprocessing and transformation:** Develop functions for data normalization, cleaning, and restructuring using appropriate Python libraries.
+4. **Preserve data integrity:** Validate Python datasets against their original R equivalents, ensuring consistency in data values, structure, and missing-value representation.
 
-5. **Ensure functionality through testing:** Develop and execute unit tests using Pytest to verify the correctness and reliability of the implemented Python modules.
+5. **Implement data preprocessing:** Develop reusable functions for normalization, cleaning, loading, and transformation.
 
-6. **Develop a reusable Python package:** Organize the implementation into a modular Python package that can be maintained, extended, and used for dengue-related data analysis.
+6. **Ensure reliability through testing:** Develop and execute unit tests using Pytest to verify implemented functionality.
+
+7. **Develop a reusable Python package:** Organize modules, datasets, and tests into a maintainable Python package.
 
 ## Project Workflow
 
-The project follows an incremental development workflow consisting of five main stages.
+The project follows an incremental development workflow consisting of six main stages.
 
 ### Stage 1: Examination of the Original R Package
 
 - Examine the structure of the original denguedatahub repository.
-- Inspect R functions and identify their intended purposes.
-- Identify datasets and data-processing scripts.
-- Classify components according to their relevance to the Python implementation.
-- Determine the appropriate Python equivalents for selected R functions.
+- Inspect R functions and their intended purposes.
+- Identify datasets available in the `data/` and `data-raw/` directories.
+- Review relevant R documentation.
+- Identify components requiring Python implementation.
 
 ### Stage 2: Python Package Development
 
 - Establish the Python package structure.
-- Configure package dependencies and project metadata.
-- Translate selected R functions into Python modules.
-- Implement data-loading and preprocessing functions.
-- Organize related functionality into reusable modules.
+- Configure dependencies and project metadata.
+- Translate selected R functions into Python.
+- Implement reusable data-loading and preprocessing modules.
 
 ### Stage 3: Dataset Integration
 
-- Examine the datasets available in the original R package.
-- Identify existing tidy datasets that can be reused directly.
-- Organize datasets under the appropriate package directories.
-- Implement Python functions to load datasets into Python-compatible data structures.
-- Extend support for Sri Lankan and international dengue datasets.
+- Identify existing tidy datasets from the original R package.
+- Examine original R dataset structures and data types.
+- Convert datasets into Python-compatible formats where necessary.
+- Implement corresponding Python dataset-loading functions.
 
-### Stage 4: Testing and Validation
+### Stage 4: Data Validation
 
-- Develop corresponding unit tests for implemented Python modules.
+- Compare Python datasets against their original R equivalents.
+- Verify dataset dimensions and column names.
+- Compare data values and data types.
+- Check missing values and character encoding.
+- Identify and correct inconsistencies introduced during conversion.
+
+### Stage 5: Unit Testing
+
+- Develop corresponding unit tests for Python modules.
 - Execute tests using Pytest.
-- Verify expected outputs and handle identified errors.
-- Validate data-loading and preprocessing functionality.
-- Repeat testing as new modules are added or existing modules are modified.
+- Verify expected outputs and data-loading functionality.
+- Correct identified issues.
+- Repeat testing after modifications.
 
-### Stage 5: Documentation and Further Development
+### Stage 6: Documentation and Further Development
 
-- Document the purpose and functionality of implemented modules.
-- Maintain the repository using Git and GitHub.
-- Update the README as new components are developed.
-- Extend dataset support and implement additional functions.
-- Improve package usability and documentation.
+- Document implemented modules and datasets.
+- Update the README and project structure.
+- Maintain version control through Git and GitHub.
+- Continue converting remaining components of the original R package.
 
 ## Workflow Diagram
 
@@ -82,35 +89,41 @@ flowchart TD
     A["Original denguedatahub R Package"]
     B["Inspect R Functions and Datasets"]
     C["Identify Components for Conversion"]
-    D["Implement Python Modules"]
-    E["Integrate Dengue Datasets"]
-    F["Develop Unit Tests"]
-    G["Run Tests and Validate Outputs"]
-    H["Document and Update Repository"]
-    I["Continue Development"]
+    D["Implement Python Functions and Dataset Loaders"]
+    E["Compare Python Data with Original R Data"]
+    F{"Data Consistent?"}
+    G["Correct Conversion Issues"]
+    H["Develop and Execute Unit Tests"]
+    I{"Tests Passed?"}
+    J["Fix Implementation or Tests"]
+    K["Document and Commit Verified Work"]
+    L["Continue with Remaining Components"]
 
     A --> B
     B --> C
     C --> D
     D --> E
     E --> F
-    F --> G
-    G --> H
+    F -- No --> G
+    G --> E
+    F -- Yes --> H
     H --> I
-    I -.-> B
+    I -- No --> J
+    J --> H
+    I -- Yes --> K
+    K --> L
+    L -.-> B
 ```
 
 ## Current Implementation Progress
 
-The project has progressed from implementing basic data-processing functions to developing and testing Python modules for loading dengue-related datasets from multiple sources.
-
-The current implementation contains **19 Python modules**, excluding the package initialization file.
+The project has progressed from basic data-processing functions to implementing and validating dengue datasets from multiple sources.
 
 ### 1. Data Processing and Transformation
 
 | Module | Description |
 |---|---|
-| `min_max.py` | Implements min-max normalization, including support for grouped data. |
+| `min_max.py` | Performs min-max normalization, including grouped normalization. |
 | `get_pdflinks_srilanka.py` | Retrieves links to Sri Lankan Weekly Epidemiological Reports. |
 | `download_pdfwer_srilanka.py` | Downloads Weekly Epidemiological Report PDF files. |
 | `convert_slwer_to_tidy.py` | Extracts and restructures epidemiological report tables into tidy data. |
@@ -131,6 +144,8 @@ The current implementation contains **19 Python modules**, excluding the package
 |---|---|
 | `load_americas_annual_data.py` | Loads annual dengue-related data for the Americas. |
 | `load_china_annual_data.py` | Loads annual dengue-related data for China. |
+| `load_india_annual_data.py` | Loads annual dengue-related data for India. |
+| `load_level_of_risk.py` | Loads the dengue-related level-of-risk dataset. |
 
 ### 4. CDC Dengue Data
 
@@ -139,74 +154,124 @@ The current implementation contains **19 Python modules**, excluding the package
 | `cdc.py` | Provides CDC-related functionality. |
 | `load_cdc_casesby_week.py` | Loads dengue case data organized by week. |
 | `load_cdc_dengue_agesex.py` | Loads dengue-related data categorized by age and sex. |
-| `load_cdc_dengue_casesbyjurisdiction.py` | Loads dengue case data categorized by jurisdiction. |
+| `load_cdc_dengue_casesbyjurisdiction.py` | Loads dengue cases categorized by jurisdiction. |
 | `load_cdc_dengue_countyear.py` | Loads yearly dengue count data. |
 | `load_cdc_local_dengue_cases.py` | Loads locally acquired dengue case data. |
 | `load_cdc_travel_associated_dengue_cases.py` | Loads travel-associated dengue case data. |
 | `load_cdc_usa_dengue_infection.py` | Loads dengue infection data for the United States. |
 
-### Additional Completed Work
+## Dataset Conversion and Validation
 
-- Established the Python package structure under `denguedatahub/`.
-- Organized dengue-related datasets and source materials under `data/` and `data-raw/`.
-- Configured the project using `pyproject.toml`.
-- Developed corresponding unit tests under the `tests/` directory.
-- Successfully executed unit tests for all currently implemented modules.
-- Implemented Python modules supporting multiple dengue data sources.
-- Used Git and GitHub for version control and incremental development.
+Dataset conversion is an important component of the project. Existing datasets from the original R package are examined and integrated into the Python implementation.
 
-**Note:** PDF-related modules were developed during the initial conversion and testing stages. Subsequent development prioritizes reusing existing tidy datasets from the original R package where available, reducing unnecessary PDF extraction and processing.
+Where applicable, converted datasets are compared with their original R equivalents to verify data consistency.
+
+### Current Dataset Progress
+
+As of 29 October 2026:
+
+| Description | Progress |
+|---|---|
+| Identified dataset items | 21 |
+| Completed dataset implementations | 16 |
+| Remaining dataset implementations | 5 |
+| Dataset completion | 76.2% |
+
+This percentage represents progress against the identified dataset items and does not indicate completion of the entire R-to-Python package conversion.
+
+### Selected Validation Results
+
+**Sri Lanka 2020 Dataset**
+- Verified 1,326 records.
+- Confirmed epidemiological weeks 1–51.
+- Verified that dengue case values contain no missing entries.
+
+**China Annual Dataset**
+- Validated against the original R dataset.
+- Confirmed 16 rows and 5 columns.
+- Corrected numeric parsing involving thousands separators.
+- Verified consistency between the R and Python datasets.
+
+**India Annual Dataset**
+- Implemented the Python data loader.
+- Verified 432 rows and 5 columns.
+- Compared the dataset with the original R data, including expected missing values.
+
+**Level of Risk Dataset**
+- Implemented the Python data loader.
+- Verified 293 rows and 4 columns.
+- Confirmed consistency with the original R dataset.
+- Corrected character encoding for `São Tomé and Príncipe`.
+- Confirmed that the dataset contains no missing values.
+
+### Remaining Dataset Work
+
+The following dataset items remain to be completed:
+
+1. `philippines_daily_data`
+2. `singapore_weekly_data`
+3. `sl_dengue_serotype`
+4. `taiwan_dengue`
+5. `world_annual`
 
 ## Repository Structure
 
-The repository follows a modular structure separating Python implementations, datasets, and unit tests.
+The repository separates Python modules, datasets, and tests into dedicated directories.
 
 ```text
 denguedatahubpythonicway/
 │
 ├── denguedatahub/
 │   ├── __init__.py
+│   ├── data/
+│   ├── data-raw/
 │   ├── cdc.py
 │   ├── min_max.py
 │   ├── get_pdflinks_srilanka.py
 │   ├── download_pdfwer_srilanka.py
 │   ├── convert_slwer_to_tidy.py
-│   │
 │   ├── load_sl_annual.py
 │   ├── load_sl_province_districts.py
 │   ├── load_sl_sites.py
 │   ├── load_srilanka_2020.py
 │   ├── load_srilanka_weekly_data.py
-│   │
 │   ├── load_americas_annual_data.py
 │   ├── load_china_annual_data.py
-│   │
+│   ├── load_india_annual_data.py
+│   ├── load_level_of_risk.py
 │   ├── load_cdc_casesby_week.py
 │   ├── load_cdc_dengue_agesex.py
 │   ├── load_cdc_dengue_casesbyjurisdiction.py
 │   ├── load_cdc_dengue_countyear.py
 │   ├── load_cdc_local_dengue_cases.py
 │   ├── load_cdc_travel_associated_dengue_cases.py
-│   ├── load_cdc_usa_dengue_infection.py
-│   │
-│   ├── data/
-│   └── data-raw/
+│   └── load_cdc_usa_dengue_infection.py
 │
 ├── tests/
-│   └── [Unit tests for implemented modules]
+│   └── Unit test files for implemented modules
 │
 ├── .gitignore
 ├── pyproject.toml
 └── README.md
 ```
 
+The structure above summarizes the main implementation files rather than listing every dataset and test file.
+
 ## Testing and Validation
 
-Unit testing is performed using **Pytest** to verify the functionality of the implemented Python modules.
+Unit testing is performed using **Pytest**.
 
-Corresponding tests have been developed for the implemented data-loading, preprocessing, and transformation functions.
+Tests are developed for data-loading, preprocessing, and transformation functions.
 
-All currently implemented modules have been tested, and their associated tests have passed successfully.
+### Latest Test Results
+
+As of 29 October 2026:
+
+**29 tests passed successfully.**
+
+The test suite covers the implemented Python functionality, including dataset-loading operations.
+
+Additional dataset validation has been performed by comparing selected Python datasets with their original R equivalents.
 
 ### Running the Tests
 
@@ -216,23 +281,21 @@ From the repository root directory, execute:
 python -m pytest -v
 ```
 
-This command runs the test suite and displays the result of each test.
-
-Testing is performed incrementally as new modules are implemented or existing functionality is modified.
+Testing is repeated whenever new modules are implemented or existing functionality is modified.
 
 ## Future Work
 
-Although the currently implemented modules have passed their tests, the overall R-to-Python conversion project remains under development.
+Although the implemented components have passed their tests, the overall project remains under development.
 
-The remaining development activities include:
+Planned activities include:
 
-- Continue examining the remaining R functions and datasets.
-- Identify additional components requiring Python implementation.
-- Extend support for dengue datasets from additional countries and sources.
-- Further compare Python functionality with the original R implementations.
-- Expand unit test coverage as additional components are developed.
-- Improve documentation and provide practical usage examples.
-- Refine the Python package for wider usability and future maintenance.
+- Complete the five remaining identified dataset implementations.
+- Continue examining remaining R functions and documentation.
+- Extend the Python implementation to additional components of the original package.
+- Continue validating Python datasets against original R datasets.
+- Expand unit test coverage.
+- Improve documentation and provide usage examples.
+- Refine package organization and usability.
 
 ## Original Project
 
@@ -248,8 +311,6 @@ https://github.com/thiyangt/denguedatahubpythonicway
 
 **Status: Under Active Development**
 
-The project currently includes 19 implemented Python modules covering data preprocessing, transformation, and dengue dataset loading.
+As of 29 October 2026, 16 of the 21 identified dataset items have been implemented, and the Python test suite has achieved 29 passing tests.
 
-All currently implemented modules have successfully passed their associated unit tests.
-
-Further development will focus on expanding the Python implementation, integrating additional datasets, and improving package documentation and usability.
+Development continues toward completing the remaining datasets, extending Python functionality, and maintaining consistency with the original R package.
