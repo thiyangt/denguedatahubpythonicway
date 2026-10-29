@@ -10,3 +10,5 @@ denguedatahub/data-raw/
 
 # Created by pytest automatically.
 .pytest_cache/
+
+*.egg-info/
