@@ -24,3 +24,4 @@ from .load_level_of_risk import load_level_of_risk
 from .load_philippines_daily_data import load_philippines_daily_data
 from .load_singapore_weekly_data import load_singapore_weekly_data
 from .load_sl_dengue_serotype import load_sl_dengue_serotype
+from .load_taiwan_dengue import load_taiwan_dengue
