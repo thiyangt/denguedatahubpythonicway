@@ -1,15 +1,19 @@
 
 # DengueDataHub – Python Implementation
 
+**A Python implementation of the [denguedatahub R package](https://github.com/thiyangt/denguedatahub).**
+
+**Project Status:** Under Active Development
+
 ## Introduction
 
-Dengue is a major public health concern in tropical and subtropical regions. Access to organized and reliable dengue-related datasets is essential for epidemiological research, disease surveillance, statistical analysis, and data-driven decision-making.
+DengueDataHub is an R package developed to provide the research community with a unified collection of worldwide dengue-related datasets, together with exogenous variables that support the understanding of dengue transmission and the reproducibility of research.
 
-The **denguedatahubpythonicway** project aims to develop a Python implementation of the existing [denguedatahub R package](https://github.com/thiyangt/denguedatahub).
+The **denguedatahubpythonicway** project aims to develop a Python implementation of the original R package, making its datasets and relevant functionality accessible within the Python ecosystem.
 
-The project focuses on converting R functions into Python, integrating existing dengue-related datasets, and developing reusable Python functions for data loading, preprocessing, and transformation.
+The project focuses on translating R functions into Python, integrating dengue-related datasets from multiple geographical regions, and developing reusable functions for data loading, preprocessing, and transformation.
 
-An important aspect of this implementation is maintaining data consistency between the original R datasets and their Python equivalents through systematic comparison, validation, and unit testing.
+An important aspect of this implementation is maintaining consistency between the original R datasets and their Python equivalents through systematic data comparison, validation, and unit testing.
 
 This project is undertaken as part of **DSA 609 – Seminar Course**, MSc in Data Science and Artificial Intelligence, University of Sri Jayewardenepura, Sri Lanka.
 
@@ -41,7 +45,7 @@ The project follows an incremental development workflow consisting of six main s
 
 - Examine the structure of the original denguedatahub repository.
 - Inspect R functions and their intended purposes.
-- Identify datasets available in the `data/` and `data-raw/` directories.
+- Identify datasets available in the original `data/` and `data-raw/` directories.
 - Review relevant R documentation.
 - Identify components requiring Python implementation.
 
@@ -117,7 +121,7 @@ flowchart TD
 
 ## Current Implementation Progress
 
-The project has progressed from basic data-processing functions to implementing and validating dengue datasets from multiple sources.
+The project has progressed from implementing basic data-processing functions to developing and validating Python modules for dengue-related datasets from multiple sources.
 
 ### 1. Data Processing and Transformation
 
@@ -160,13 +164,15 @@ The project has progressed from basic data-processing functions to implementing 
 | `load_cdc_travel_associated_dengue_cases.py` | Loads travel-associated dengue case data. |
 | `load_cdc_usa_dengue_infection.py` | Loads dengue infection data for the United States. |
 
+**Note:** PDF-related modules were developed during the initial conversion stages. Subsequent development prioritizes reusing existing tidy datasets from the original R package where available, reducing unnecessary PDF extraction.
+
 ## Dataset Conversion and Validation
 
-Dataset conversion is an important component of the project. Existing datasets from the original R package are examined and integrated into the Python implementation.
+Dataset conversion is an important component of this project. Existing datasets from the original R package are examined, converted where necessary, and integrated into the Python implementation.
 
-Where applicable, converted datasets are compared with their original R equivalents to verify data consistency.
+Converted datasets are compared with their original R equivalents to verify consistency in structure, values, missing data, and character encoding.
 
-### Current Dataset Progress
+### Dataset Implementation Progress
 
 As of 29 October 2026:
 
@@ -216,7 +222,7 @@ The following dataset items remain to be completed:
 
 ## Repository Structure
 
-The repository separates Python modules, datasets, and tests into dedicated directories.
+The repository separates Python modules, datasets, and unit tests into dedicated directories.
 
 ```text
 denguedatahubpythonicway/
@@ -257,11 +263,37 @@ denguedatahubpythonicway/
 
 The structure above summarizes the main implementation files rather than listing every dataset and test file.
 
+## Installation
+
+The Python implementation can be installed locally from the GitHub repository.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/thiyangt/denguedatahubpythonicway.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd denguedatahubpythonicway
+```
+
+### 3. Install the Package
+
+Install the package in editable mode:
+
+```bash
+python -m pip install -e .
+```
+
+This allows changes made to the local Python modules to be reflected without reinstalling the package.
+
 ## Testing and Validation
 
 Unit testing is performed using **Pytest**.
 
-Tests are developed for data-loading, preprocessing, and transformation functions.
+Tests have been developed for the implemented data-loading, preprocessing, and transformation functions.
 
 ### Latest Test Results
 
@@ -269,11 +301,15 @@ As of 29 October 2026:
 
 **29 tests passed successfully.**
 
-The test suite covers the implemented Python functionality, including dataset-loading operations.
-
 Additional dataset validation has been performed by comparing selected Python datasets with their original R equivalents.
 
 ### Running the Tests
+
+Install Pytest if necessary:
+
+```bash
+python -m pip install pytest
+```
 
 From the repository root directory, execute:
 
@@ -281,11 +317,13 @@ From the repository root directory, execute:
 python -m pytest -v
 ```
 
+This command executes the test suite and displays the results of individual tests.
+
 Testing is repeated whenever new modules are implemented or existing functionality is modified.
 
 ## Future Work
 
-Although the implemented components have passed their tests, the overall project remains under development.
+Although the currently implemented components have passed their tests, the overall project remains under development.
 
 Planned activities include:
 
@@ -294,18 +332,16 @@ Planned activities include:
 - Extend the Python implementation to additional components of the original package.
 - Continue validating Python datasets against original R datasets.
 - Expand unit test coverage.
-- Improve documentation and provide usage examples.
+- Improve package documentation.
 - Refine package organization and usability.
 
-## Original Project
+## Original Project and References
 
-This implementation is based on the original R package:
+This Python implementation is based on the original **denguedatahub R package**.
 
-**Original R Package:**  
-https://github.com/thiyangt/denguedatahub
-
-**Python Implementation:**  
-https://github.com/thiyangt/denguedatahubpythonicway
+- **Original R Package:** https://github.com/thiyangt/denguedatahub
+- **Original Package Website:** https://thiyangt.github.io/denguedatahubweb/
+- **Python Implementation:** https://github.com/thiyangt/denguedatahubpythonicway
 
 ## Project Status
 
