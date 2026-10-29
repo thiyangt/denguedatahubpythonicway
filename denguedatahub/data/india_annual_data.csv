@@ -1,0 +1,433 @@
+area,type,year,additional_information,value
+Andhra Pradesh,cases,2017,,4925.0
+Andhra Pradesh,deaths,2017,,0.0
+Andhra Pradesh,cases,2018,,4011.0
+Andhra Pradesh,deaths,2018,,0.0
+Andhra Pradesh,cases,2019,,5286.0
+Andhra Pradesh,deaths,2019,,0.0
+Andhra Pradesh,cases,2020,,925.0
+Andhra Pradesh,deaths,2020,,0.0
+Andhra Pradesh,cases,2021,,4760.0
+Andhra Pradesh,deaths,2021,,0.0
+Andhra Pradesh,cases,2022,till31stOct,4754.0
+Andhra Pradesh,deaths,2022,till31stOct,0.0
+Arunachal Pradesh,cases,2017,,18.0
+Arunachal Pradesh,deaths,2017,,0.0
+Arunachal Pradesh,cases,2018,,1.0
+Arunachal Pradesh,deaths,2018,,0.0
+Arunachal Pradesh,cases,2019,,123.0
+Arunachal Pradesh,deaths,2019,,0.0
+Arunachal Pradesh,cases,2020,,1.0
+Arunachal Pradesh,deaths,2020,,0.0
+Arunachal Pradesh,cases,2021,,7.0
+Arunachal Pradesh,deaths,2021,,0.0
+Arunachal Pradesh,cases,2022,till31stOct,163.0
+Arunachal Pradesh,deaths,2022,till31stOct,0.0
+Assam,cases,2017,,5024.0
+Assam,deaths,2017,,1.0
+Assam,cases,2018,,166.0
+Assam,deaths,2018,,0.0
+Assam,cases,2019,,196.0
+Assam,deaths,2019,,0.0
+Assam,cases,2020,,33.0
+Assam,deaths,2020,,0.0
+Assam,cases,2021,,103.0
+Assam,deaths,2021,,0.0
+Assam,cases,2022,till31stOct,191.0
+Assam,deaths,2022,till31stOct,0.0
+Bihar,cases,2017,,1854.0
+Bihar,deaths,2017,,0.0
+Bihar,cases,2018,,2142.0
+Bihar,deaths,2018,,0.0
+Bihar,cases,2019,,6712.0
+Bihar,deaths,2019,,0.0
+Bihar,cases,2020,,493.0
+Bihar,deaths,2020,,2.0
+Bihar,cases,2021,,633.0
+Bihar,deaths,2021,,2.0
+Bihar,cases,2022,till31stOct,9374.0
+Bihar,deaths,2022,till31stOct,7.0
+Chattisgarh,cases,2017,,444.0
+Chattisgarh,deaths,2017,,0.0
+Chattisgarh,cases,2018,,2674.0
+Chattisgarh,deaths,2018,,10.0
+Chattisgarh,cases,2019,,722.0
+Chattisgarh,deaths,2019,,0.0
+Chattisgarh,cases,2020,,57.0
+Chattisgarh,deaths,2020,,0.0
+Chattisgarh,cases,2021,,1086.0
+Chattisgarh,deaths,2021,,0.0
+Chattisgarh,cases,2022,till31stOct,2436.0
+Chattisgarh,deaths,2022,till31stOct,0.0
+Goa,cases,2017,,235.0
+Goa,deaths,2017,,0.0
+Goa,cases,2018,,335.0
+Goa,deaths,2018,,1.0
+Goa,cases,2019,,992.0
+Goa,deaths,2019,,0.0
+Goa,cases,2020,,376.0
+Goa,deaths,2020,,0.0
+Goa,cases,2021,,649.0
+Goa,deaths,2021,,0.0
+Goa,cases,2022,till31stOct,429.0
+Goa,deaths,2022,till31stOct,0.0
+Gujarat,cases,2017,,4753.0
+Gujarat,deaths,2017,,6.0
+Gujarat,cases,2018,,7579.0
+Gujarat,deaths,2018,,5.0
+Gujarat,cases,2019,,18219.0
+Gujarat,deaths,2019,,17.0
+Gujarat,cases,2020,,1564.0
+Gujarat,deaths,2020,,2.0
+Gujarat,cases,2021,,10983.0
+Gujarat,deaths,2021,,14.0
+Gujarat,cases,2022,till31stOct,4811.0
+Gujarat,deaths,2022,till31stOct,2.0
+Haryana,cases,2017,,4550.0
+Haryana,deaths,2017,,0.0
+Haryana,cases,2018,,1898.0
+Haryana,deaths,2018,,0.0
+Haryana,cases,2019,,1207.0
+Haryana,deaths,2019,,0.0
+Haryana,cases,2020,,1377.0
+Haryana,deaths,2020,,0.0
+Haryana,cases,2021,,11835.0
+Haryana,deaths,2021,,13.0
+Haryana,cases,2022,till31stOct,4551.0
+Haryana,deaths,2022,till31stOct,12.0
+Himachal Pradesh,cases,2017,,452.0
+Himachal Pradesh,deaths,2017,,0.0
+Himachal Pradesh,cases,2018,,4672.0
+Himachal Pradesh,deaths,2018,,7.0
+Himachal Pradesh,cases,2019,,344.0
+Himachal Pradesh,deaths,2019,,2.0
+Himachal Pradesh,cases,2020,,21.0
+Himachal Pradesh,deaths,2020,,0.0
+Himachal Pradesh,cases,2021,,349.0
+Himachal Pradesh,deaths,2021,,0.0
+Himachal Pradesh,cases,2022,till31stOct,2563.0
+Himachal Pradesh,deaths,2022,till31stOct,0.0
+J & K,cases,2017,,488.0
+J & K,deaths,2017,,0.0
+J & K,cases,2018,,214.0
+J & K,deaths,2018,,0.0
+J & K,cases,2019,,439.0
+J & K,deaths,2019,,0.0
+J & K,cases,2020,,53.0
+J & K,deaths,2020,,0.0
+J & K,cases,2021,,1709.0
+J & K,deaths,2021,,4.0
+J & K,cases,2022,till31stOct,4927.0
+J & K,deaths,2022,till31stOct,10.0
+Jharkhand,cases,2017,,710.0
+Jharkhand,deaths,2017,,5.0
+Jharkhand,cases,2018,,463.0
+Jharkhand,deaths,2018,,1.0
+Jharkhand,cases,2019,,825.0
+Jharkhand,deaths,2019,,0.0
+Jharkhand,cases,2020,,79.0
+Jharkhand,deaths,2020,,0.0
+Jharkhand,cases,2021,,220.0
+Jharkhand,deaths,2021,,1.0
+Jharkhand,cases,2022,till31stOct,123.0
+Jharkhand,deaths,2022,till31stOct,0.0
+Karnataka,cases,2017,,17844.0
+Karnataka,deaths,2017,,10.0
+Karnataka,cases,2018,,4427.0
+Karnataka,deaths,2018,,4.0
+Karnataka,cases,2019,,16986.0
+Karnataka,deaths,2019,,13.0
+Karnataka,cases,2020,,3823.0
+Karnataka,deaths,2020,,0.0
+Karnataka,cases,2021,,7393.0
+Karnataka,deaths,2021,,7.0
+Karnataka,cases,2022,till31stOct,7317.0
+Karnataka,deaths,2022,till31stOct,4.0
+Kerala,cases,2017,,19994.0
+Kerala,deaths,2017,,37.0
+Kerala,cases,2018,,4083.0
+Kerala,deaths,2018,,32.0
+Kerala,cases,2019,,4652.0
+Kerala,deaths,2019,,16.0
+Kerala,cases,2020,,4399.0
+Kerala,deaths,2020,,5.0
+Kerala,cases,2021,,3251.0
+Kerala,deaths,2021,,27.0
+Kerala,cases,2022,till31stOct,3446.0
+Kerala,deaths,2022,till31stOct,24.0
+Lakshadweep,cases,2017,,0.0
+Lakshadweep,deaths,2017,,0.0
+Lakshadweep,cases,2018,,0.0
+Lakshadweep,deaths,2018,,0.0
+Lakshadweep,cases,2019,,0.0
+Lakshadweep,deaths,2019,,0.0
+Lakshadweep,cases,2020,,0.0
+Lakshadweep,deaths,2020,,0.0
+Lakshadweep,cases,2021,,1.0
+Lakshadweep,deaths,2021,,0.0
+Lakshadweep,cases,2022,till31stOct,56.0
+Lakshadweep,deaths,2022,till31stOct,0.0
+Madhya Pradesh,cases,2017,,2666.0
+Madhya Pradesh,deaths,2017,,6.0
+Madhya Pradesh,cases,2018,,4506.0
+Madhya Pradesh,deaths,2018,,5.0
+Madhya Pradesh,cases,2019,,4189.0
+Madhya Pradesh,deaths,2019,,2.0
+Madhya Pradesh,cases,2020,,806.0
+Madhya Pradesh,deaths,2020,,0.0
+Madhya Pradesh,cases,2021,,15592.0
+Madhya Pradesh,deaths,2021,,11.0
+Madhya Pradesh,cases,2022,till31stOct,1669.0
+Madhya Pradesh,deaths,2022,till31stOct,0.0
+Meghalaya,cases,2017,,52.0
+Meghalaya,deaths,2017,,0.0
+Meghalaya,cases,2018,,44.0
+Meghalaya,deaths,2018,,0.0
+Meghalaya,cases,2019,,82.0
+Meghalaya,deaths,2019,,0.0
+Meghalaya,cases,2020,,4.0
+Meghalaya,deaths,2020,,0.0
+Meghalaya,cases,2021,,129.0
+Meghalaya,deaths,2021,,0.0
+Meghalaya,cases,2022,till31stOct,15.0
+Meghalaya,deaths,2022,till31stOct,0.0
+Maharashtra,cases,2017,,7829.0
+Maharashtra,deaths,2017,,65.0
+Maharashtra,cases,2018,,11011.0
+Maharashtra,deaths,2018,,55.0
+Maharashtra,cases,2019,,14907.0
+Maharashtra,deaths,2019,,29.0
+Maharashtra,cases,2020,,3356.0
+Maharashtra,deaths,2020,,10.0
+Maharashtra,cases,2021,,12720.0
+Maharashtra,deaths,2021,,42.0
+Maharashtra,cases,2022,till31stOct,6330.0
+Maharashtra,deaths,2022,till31stOct,5.0
+Manipur,cases,2017,,193.0
+Manipur,deaths,2017,,1.0
+Manipur,cases,2018,,14.0
+Manipur,deaths,2018,,0.0
+Manipur,cases,2019,,359.0
+Manipur,deaths,2019,,0.0
+Manipur,cases,2020,,37.0
+Manipur,deaths,2020,,0.0
+Manipur,cases,2021,,203.0
+Manipur,deaths,2021,,0.0
+Manipur,cases,2022,till31stOct,313.0
+Manipur,deaths,2022,till31stOct,2.0
+Mizoram,cases,2017,,136.0
+Mizoram,deaths,2017,,0.0
+Mizoram,cases,2018,,68.0
+Mizoram,deaths,2018,,0.0
+Mizoram,cases,2019,,42.0
+Mizoram,deaths,2019,,0.0
+Mizoram,cases,2020,,67.0
+Mizoram,deaths,2020,,0.0
+Mizoram,cases,2021,,83.0
+Mizoram,deaths,2021,,0.0
+Mizoram,cases,2022,till31stOct,437.0
+Mizoram,deaths,2022,till31stOct,0.0
+Nagaland,cases,2017,,357.0
+Nagaland,deaths,2017,,0.0
+Nagaland,cases,2018,,369.0
+Nagaland,deaths,2018,,0.0
+Nagaland,cases,2019,,8.0
+Nagaland,deaths,2019,,0.0
+Nagaland,cases,2020,,1.0
+Nagaland,deaths,2020,,0.0
+Nagaland,cases,2021,,24.0
+Nagaland,deaths,2021,,0.0
+Nagaland,cases,2022,till31stOct,68.0
+Nagaland,deaths,2022,till31stOct,0.0
+Odisha,cases,2017,,4158.0
+Odisha,deaths,2017,,6.0
+Odisha,cases,2018,,5198.0
+Odisha,deaths,2018,,5.0
+Odisha,cases,2019,,3758.0
+Odisha,deaths,2019,,4.0
+Odisha,cases,2020,,496.0
+Odisha,deaths,2020,,0.0
+Odisha,cases,2021,,7548.0
+Odisha,deaths,2021,,0.0
+Odisha,cases,2022,till31stOct,5728.0
+Odisha,deaths,2022,till31stOct,0.0
+Punjab,cases,2017,,15398.0
+Punjab,deaths,2017,,18.0
+Punjab,cases,2018,,14980.0
+Punjab,deaths,2018,,9.0
+Punjab,cases,2019,,10289.0
+Punjab,deaths,2019,,14.0
+Punjab,cases,2020,,8435.0
+Punjab,deaths,2020,,22.0
+Punjab,cases,2021,,23389.0
+Punjab,deaths,2021,,55.0
+Punjab,cases,2022,till31stOct,5139.0
+Punjab,deaths,2022,till31stOct,5.0
+Rajasthan,cases,2017,,8427.0
+Rajasthan,deaths,2017,,14.0
+Rajasthan,cases,2018,,9587.0
+Rajasthan,deaths,2018,,10.0
+Rajasthan,cases,2019,,13706.0
+Rajasthan,deaths,2019,,17.0
+Rajasthan,cases,2020,,2023.0
+Rajasthan,deaths,2020,,7.0
+Rajasthan,cases,2021,,20749.0
+Rajasthan,deaths,2021,,96.0
+Rajasthan,cases,2022,till31stOct,9283.0
+Rajasthan,deaths,2022,till31stOct,6.0
+Sikkim,cases,2017,,312.0
+Sikkim,deaths,2017,,0.0
+Sikkim,cases,2018,,320.0
+Sikkim,deaths,2018,,0.0
+Sikkim,cases,2019,,444.0
+Sikkim,deaths,2019,,0.0
+Sikkim,cases,2020,,11.0
+Sikkim,deaths,2020,,0.0
+Sikkim,cases,2021,,243.0
+Sikkim,deaths,2021,,1.0
+Sikkim,cases,2022,till31stOct,209.0
+Sikkim,deaths,2022,till31stOct,0.0
+Tamil Nadu,cases,2017,,23294.0
+Tamil Nadu,deaths,2017,,65.0
+Tamil Nadu,cases,2018,,4486.0
+Tamil Nadu,deaths,2018,,13.0
+Tamil Nadu,cases,2019,,8527.0
+Tamil Nadu,deaths,2019,,5.0
+Tamil Nadu,cases,2020,,2410.0
+Tamil Nadu,deaths,2020,,0.0
+Tamil Nadu,cases,2021,,6039.0
+Tamil Nadu,deaths,2021,,8.0
+Tamil Nadu,cases,2022,till31stOct,4771.0
+Tamil Nadu,deaths,2022,till31stOct,4.0
+Tripura,cases,2017,,127.0
+Tripura,deaths,2017,,0.0
+Tripura,cases,2018,,100.0
+Tripura,deaths,2018,,0.0
+Tripura,cases,2019,,114.0
+Tripura,deaths,2019,,0.0
+Tripura,cases,2020,,24.0
+Tripura,deaths,2020,,0.0
+Tripura,cases,2021,,349.0
+Tripura,deaths,2021,,0.0
+Tripura,cases,2022,till31stOct,44.0
+Tripura,deaths,2022,till31stOct,0.0
+Telangana,cases,2017,,5369.0
+Telangana,deaths,2017,,0.0
+Telangana,cases,2018,,4592.0
+Telangana,deaths,2018,,2.0
+Telangana,cases,2019,,13331.0
+Telangana,deaths,2019,,7.0
+Telangana,cases,2020,,2173.0
+Telangana,deaths,2020,,0.0
+Telangana,cases,2021,,7135.0
+Telangana,deaths,2021,,0.0
+Telangana,cases,2022,till31stOct,13091.0
+Telangana,deaths,2022,till31stOct,0.0
+Uttar Pradesh,cases,2017,,3092.0
+Uttar Pradesh,deaths,2017,,28.0
+Uttar Pradesh,cases,2018,,3829.0
+Uttar Pradesh,deaths,2018,,4.0
+Uttar Pradesh,cases,2019,,10557.0
+Uttar Pradesh,deaths,2019,,26.0
+Uttar Pradesh,cases,2020,,3715.0
+Uttar Pradesh,deaths,2020,,6.0
+Uttar Pradesh,cases,2021,,29750.0
+Uttar Pradesh,deaths,2021,,29.0
+Uttar Pradesh,cases,2022,till31stOct,6758.0
+Uttar Pradesh,deaths,2022,till31stOct,1.0
+Uttrakhand,cases,2017,,849.0
+Uttrakhand,deaths,2017,,0.0
+Uttrakhand,cases,2018,,689.0
+Uttrakhand,deaths,2018,,3.0
+Uttrakhand,cases,2019,,10622.0
+Uttrakhand,deaths,2019,,8.0
+Uttrakhand,cases,2020,,76.0
+Uttrakhand,deaths,2020,,1.0
+Uttrakhand,cases,2021,,738.0
+Uttrakhand,deaths,2021,,2.0
+Uttrakhand,cases,2022,till31stOct,1878.0
+Uttrakhand,deaths,2022,till31stOct,0.0
+West Bengal,cases,2017,,37746.0
+West Bengal,deaths,2017,,46.0
+West Bengal,cases,2018,,
+West Bengal,deaths,2018,,
+West Bengal,cases,2019,,
+West Bengal,deaths,2019,,
+West Bengal,cases,2020,,5166.0
+West Bengal,deaths,2020,,0.0
+West Bengal,cases,2021,,8264.0
+West Bengal,deaths,2021,,7.0
+West Bengal,cases,2022,till31stOct,1753.0
+West Bengal,deaths,2022,till31stOct,3.0
+A& N Island,cases,2017,,18.0
+A& N Island,deaths,2017,,0.0
+A& N Island,cases,2018,,49.0
+A& N Island,deaths,2018,,0.0
+A& N Island,cases,2019,,168.0
+A& N Island,deaths,2019,,0.0
+A& N Island,cases,2020,,98.0
+A& N Island,deaths,2020,,0.0
+A& N Island,cases,2021,,175.0
+A& N Island,deaths,2021,,0.0
+A& N Island,cases,2022,till31stOct,982.0
+A& N Island,deaths,2022,till31stOct,0.0
+Chandigarh,cases,2017,,1125.0
+Chandigarh,deaths,2017,,0.0
+Chandigarh,cases,2018,,301.0
+Chandigarh,deaths,2018,,0.0
+Chandigarh,cases,2019,,286.0
+Chandigarh,deaths,2019,,0.0
+Chandigarh,cases,2020,,265.0
+Chandigarh,deaths,2020,,0.0
+Chandigarh,cases,2021,,1596.0
+Chandigarh,deaths,2021,,3.0
+Chandigarh,cases,2022,till31stOct,623.0
+Chandigarh,deaths,2022,till31stOct,0.0
+Delhi,cases,2017,,9271.0
+Delhi,deaths,2017,,10.0
+Delhi,cases,2018,,7136.0
+Delhi,deaths,2018,,4.0
+Delhi,cases,2019,,5077.0
+Delhi,deaths,2019,,0.0
+Delhi,cases,2020,,1269.0
+Delhi,deaths,2020,,0.0
+Delhi,cases,2021,,13089.0
+Delhi,deaths,2021,,23.0
+Delhi,cases,2022,till31stOct,4609.0
+Delhi,deaths,2022,till31stOct,0.0
+D&N Haveli,cases,2017,,2064.0
+D&N Haveli,deaths,2017,,0.0
+D&N Haveli,cases,2018,,493.0
+D&N Haveli,deaths,2018,,0.0
+D&N Haveli,cases,2019,,1491.0
+D&N Haveli,deaths,2019,,2.0
+D&N Haveli,cases,2020,,248.0
+D&N Haveli,deaths,2020,,0.0
+D&N Haveli,cases,2021,,547.0
+D&N Haveli,deaths,2021,,0.0
+D&N Haveli,cases,2022,till31stOct,511.0
+D&N Haveli,deaths,2022,till31stOct,0.0
+Daman & Diu,cases,2017,,59.0
+Daman & Diu,deaths,2017,,0.0
+Daman & Diu,cases,2018,,163.0
+Daman & Diu,deaths,2018,,0.0
+Daman & Diu,cases,2019,,625.0
+Daman & Diu,deaths,2019,,2.0
+Daman & Diu,cases,2020,,71.0
+Daman & Diu,deaths,2020,,0.0
+Daman & Diu,cases,2021,,279.0
+Daman & Diu,deaths,2021,,0.0
+Daman & Diu,cases,2022,till31stOct,156.0
+Daman & Diu,deaths,2022,till31stOct,0.0
+Puduchery,cases,2017,,4568.0
+Puduchery,deaths,2017,,7.0
+Puduchery,cases,2018,,592.0
+Puduchery,deaths,2018,,2.0
+Puduchery,cases,2019,,2030.0
+Puduchery,deaths,2019,,2.0
+Puduchery,cases,2020,,633.0
+Puduchery,deaths,2020,,1.0
+Puduchery,cases,2021,,1625.0
+Puduchery,deaths,2021,,1.0
+Puduchery,cases,2022,till31stOct,827.0
+Puduchery,deaths,2022,till31stOct,1.0

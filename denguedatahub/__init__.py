@@ -17,3 +17,5 @@ from .cdc import load_cdc_data
 from .load_cdc_usa_dengue_infection import load_cdc_usa_dengue_infection
 from .load_srilanka_weekly_data import load_srilanka_weekly_data
 from .load_srilanka_2020 import load_srilanka_2020
+
+from .load_india_annual_data import load_india_annual_data
