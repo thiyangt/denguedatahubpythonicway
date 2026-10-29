@@ -1,0 +1,294 @@
+"country","level_of_risk","region","last_accessed"
+"Angola","Sporadic/Uncertain","Africa",2023-01-16
+"Benin","Sporadic/Uncertain","Africa",2023-01-16
+"Burkina Faso","Frequent/Continuous","Africa",2023-01-16
+"Burundi","Sporadic/Uncertain","Africa",2023-01-16
+"Cameroon","Sporadic/Uncertain","Africa",2023-01-16
+"Cape Verde","Sporadic/Uncertain","Africa",2023-01-16
+"Central African Republic","Sporadic/Uncertain","Africa",2023-01-16
+"Chad","Sporadic/Uncertain","Africa",2023-01-16
+"Comoros","Sporadic/Uncertain","Africa",2023-01-16
+"Congo","Sporadic/Uncertain","Africa",2023-01-16
+"Congo (Democratic republic of)","Sporadic/Uncertain","Africa",2023-01-16
+"Cote dâIvoire","Sporadic/Uncertain","Africa",2023-01-16
+"Djibouti","Frequent/Continuous","Africa",2023-01-16
+"Egypt","Sporadic/Uncertain","Africa",2023-01-16
+"Equatorial Guinea","Sporadic/Uncertain","Africa",2023-01-16
+"Eritrea","Frequent/Continuous","Africa",2023-01-16
+"Ethiopia","Frequent/Continuous","Africa",2023-01-16
+"Gabon","Sporadic/Uncertain","Africa",2023-01-16
+"Gambia","Sporadic/Uncertain","Africa",2023-01-16
+"Ghana","Sporadic/Uncertain","Africa",2023-01-16
+"Guinea","Sporadic/Uncertain","Africa",2023-01-16
+"Guinea-Bissau","Sporadic/Uncertain","Africa",2023-01-16
+"Kenya","Frequent/Continuous","Africa",2023-01-16
+"Liberia","Sporadic/Uncertain","Africa",2023-01-16
+"Madagascar","Sporadic/Uncertain","Africa",2023-01-16
+"Malawi","Sporadic/Uncertain","Africa",2023-01-16
+"Mali","Sporadic/Uncertain","Africa",2023-01-16
+"Mauritius","Sporadic/Uncertain","Africa",2023-01-16
+"Mayotte","Sporadic/Uncertain","Africa",2023-01-16
+"Mozambique","Sporadic/Uncertain","Africa",2023-01-16
+"Namibia","Sporadic/Uncertain","Africa",2023-01-16
+"Niger","Sporadic/Uncertain","Africa",2023-01-16
+"Nigeria","Sporadic/Uncertain","Africa",2023-01-16
+"Reunion","Sporadic/Uncertain","Africa",2023-01-16
+"Rwanda","Sporadic/Uncertain","Africa",2023-01-16
+"Sao Tome and Principe","Sporadic/Uncertain","Africa",2023-01-16
+"Senegal","Sporadic/Uncertain","Africa",2023-01-16
+"Seychelles","Sporadic/Uncertain","Africa",2023-01-16
+"Sierra Leone","Sporadic/Uncertain","Africa",2023-01-16
+"Somalia","Frequent/Continuous","Africa",2023-01-16
+"South Sudan","Sporadic/Uncertain","Africa",2023-01-16
+"Sudan","Frequent/Continuous","Africa",2023-01-16
+"Togo","Sporadic/Uncertain","Africa",2023-01-16
+"Uganda","Sporadic/Uncertain","Africa",2023-01-16
+"United Republic of Tanzania","Frequent/Continuous","Africa",2023-01-16
+"Zambia","Sporadic/Uncertain","Africa",2023-01-16
+"Zimbabwe","Sporadic/Uncertain","Africa",2023-01-16
+"Afghanistan","Sporadic/Uncertain","Asia",2023-01-16
+"Aksai Chin","Sporadic/Uncertain","Asia",2023-01-16
+"Bangladesh","Frequent/Continuous","Asia",2023-01-16
+"Bhutan","Frequent/Continuous","Asia",2023-01-16
+"Brunei Darussalam","Frequent/Continuous","Asia",2023-01-16
+"Cambodia","Frequent/Continuous","Asia",2023-01-16
+"Hong Kong","Sporadic/Uncertain","Asia",2023-01-16
+"Indonesia","Frequent/Continuous","Asia",2023-01-16
+"IranÂ  (Islamic Republic of)","Sporadic/Uncertain","Asia",2023-01-16
+"Jammu and Kashmir","Sporadic/Uncertain","Asia",2023-01-16
+"Japan","Sporadic/Uncertain","Asia",2023-01-16
+"Lao Peopleâs Democratic Republic","Frequent/Continuous","Asia",2023-01-16
+"Macau","Sporadic/Uncertain","Asia",2023-01-16
+"Malaysia","Frequent/Continuous","Asia",2023-01-16
+"Myanmar","Frequent/Continuous","Asia",2023-01-16
+"Nepal","Frequent/Continuous","Asia",2023-01-16
+"Oman","Sporadic/Uncertain","Asia",2023-01-16
+"Philippines","Frequent/Continuous","Asia",2023-01-16
+"Republic of Korea","Sporadic/Uncertain","Asia",2023-01-16
+"Singapore","Sporadic/Uncertain","Asia",2023-01-16
+"Sri Lanka","Frequent/Continuous","Asia",2023-01-16
+"Taiwan","Frequent/Continuous","Asia",2023-01-16
+"Thailand","Frequent/Continuous","Asia",2023-01-16
+"Timor-Leste","Frequent/Continuous","Asia",2023-01-16
+"Viet Nam","Frequent/Continuous","Asia",2023-01-16
+"Yemen","Frequent/Continuous","Asia",2023-01-16
+"Anguilla","Sporadic/Uncertain","Americas",2023-01-16
+"Antigua and Barbuda","Frequent/Continuous","Americas",2023-01-16
+"Aruba","Frequent/Continuous","Americas",2023-01-16
+"Bahamas","Frequent/Continuous","Americas",2023-01-16
+"Barbados","Frequent/Continuous","Americas",2023-01-16
+"Belize","Frequent/Continuous","Americas",2023-01-16
+"Bermuda","Sporadic/Uncertain","Americas",2023-01-16
+"Bolivia","Frequent/Continuous","Americas",2023-01-16
+"Brazil","Frequent/Continuous","Americas",2023-01-16
+"British Virgin Islands","Frequent/Continuous","Americas",2023-01-16
+"Cayman Islands","Frequent/Continuous","Americas",2023-01-16
+"Chile","Frequent/Continuous","Americas",2023-01-16
+"Colombia","Frequent/Continuous","Americas",2023-01-16
+"Costa Rica","Frequent/Continuous","Americas",2023-01-16
+"Cuba","Frequent/Continuous","Americas",2023-01-16
+"Dominica","Frequent/Continuous","Americas",2023-01-16
+"Dominican Republic","Frequent/Continuous","Americas",2023-01-16
+"Ecuador","Sporadic/Uncertain","Americas",2023-01-16
+"El Salvador","Frequent/Continuous","Americas",2023-01-16
+"French Guiana","Frequent/Continuous","Americas",2023-01-16
+"Grenada","Frequent/Continuous","Americas",2023-01-16
+"Guadeloupe","Frequent/Continuous","Americas",2023-01-16
+"Guatemala","Frequent/Continuous","Americas",2023-01-16
+"Guyana","Frequent/Continuous","Americas",2023-01-16
+"Haiti","Frequent/Continuous","Americas",2023-01-16
+"Honduras","Frequent/Continuous","Americas",2023-01-16
+"Jamaica","Frequent/Continuous","Americas",2023-01-16
+"Martinique","Frequent/Continuous","Americas",2023-01-16
+"Montserrat","Sporadic/Uncertain","Americas",2023-01-16
+"Netherlands Antilles","Frequent/Continuous","Americas",2023-01-16
+"Nicaragua","Frequent/Continuous","Americas",2023-01-16
+"Panama","Frequent/Continuous","Americas",2023-01-16
+"Paraguay","Frequent/Continuous","Americas",2023-01-16
+"Puerto Rico","Frequent/Continuous","Americas",2023-01-16
+"Saint Kitts and Nevis","Frequent/Continuous","Americas",2023-01-16
+"Saint Lucia","Frequent/Continuous","Americas",2023-01-16
+"Saint Vincent and the Grenadines","Frequent/Continuous","Americas",2023-01-16
+"Suriname","Frequent/Continuous","Americas",2023-01-16
+"Trinidad and Tobago","Frequent/Continuous","Americas",2023-01-16
+"Turks and Caicos","Frequent/Continuous","Americas",2023-01-16
+"United States Virgin Islands","Frequent/Continuous","Americas",2023-01-16
+"Uruguay","Sporadic/Uncertain","Americas",2023-01-16
+"Venezuela","Frequent/Continuous","Americas",2023-01-16
+"American Samoa","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Australia","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Cook Islands","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Fiji","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"French Polynesia","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Kiribati","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Maldives","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Marshall Islands","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Micronesia (Federated States of)","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Nauru","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"New Caledonia","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Niue","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Northern Mariana Islands","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Palau","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Papua New Guinea","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Samoa","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Solomon Islands","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Tokelau","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Tonga","Frequent/Continuous","Oceania/Pacific Islands",2023-01-16
+"Tuvalu","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Vanuatu","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Wallis and Futuna","Sporadic/Uncertain","Oceania/Pacific Islands",2023-01-16
+"Burkina Faso","Frequent/Continuous","Africa",2024-09-03
+"Djibouti","Frequent/Continuous","Africa",2024-09-03
+"Egypt","Frequent/Continuous","Africa",2024-09-03
+"Eritrea","Frequent/Continuous","Africa",2024-09-03
+"Ethiopia","Frequent/Continuous","Africa",2024-09-03
+"Kenya","Frequent/Continuous","Africa",2024-09-03
+"Reunion","Frequent/Continuous","Africa",2024-09-03
+"Somalia","Frequent/Continuous","Africa",2024-09-03
+"Sudan","Frequent/Continuous","Africa",2024-09-03
+"United Republic of Tanzania","Frequent/Continuous","Africa",2024-09-03
+"Benin","Sporadic/Uncertain","Africa",2024-09-03
+"Burundi","Sporadic/Uncertain","Africa",2024-09-03
+"Cameroon","Sporadic/Uncertain","Africa",2024-09-03
+"Cape Verde","Sporadic/Uncertain","Africa",2024-09-03
+"Central African Republic","Sporadic/Uncertain","Africa",2024-09-03
+"Chad","Sporadic/Uncertain","Africa",2024-09-03
+"Comoros","Sporadic/Uncertain","Africa",2024-09-03
+"Congo","Sporadic/Uncertain","Africa",2024-09-03
+"Cote d'Ivoire","Sporadic/Uncertain","Africa",2024-09-03
+"Democratic Republic of the Congo","Sporadic/Uncertain","Africa",2024-09-03
+"Equatorial Guinea","Sporadic/Uncertain","Africa",2024-09-03
+"Gabon","Sporadic/Uncertain","Africa",2024-09-03
+"Gambia","Sporadic/Uncertain","Africa",2024-09-03
+"Ghana","Sporadic/Uncertain","Africa",2024-09-03
+"Guinea","Sporadic/Uncertain","Africa",2024-09-03
+"Guinea-Bissau","Sporadic/Uncertain","Africa",2024-09-03
+"Liberia","Sporadic/Uncertain","Africa",2024-09-03
+"Madagascar","Sporadic/Uncertain","Africa",2024-09-03
+"Malawi","Sporadic/Uncertain","Africa",2024-09-03
+"Mali","Sporadic/Uncertain","Africa",2024-09-03
+"Mauritania","Sporadic/Uncertain","Africa",2024-09-03
+"Mauritius","Sporadic/Uncertain","Africa",2024-09-03
+"Mayotte","Sporadic/Uncertain","Africa",2024-09-03
+"Mozambique","Sporadic/Uncertain","Africa",2024-09-03
+"Namibia","Sporadic/Uncertain","Africa",2024-09-03
+"Niger","Sporadic/Uncertain","Africa",2024-09-03
+"Nigeria","Sporadic/Uncertain","Africa",2024-09-03
+"Rwanda","Sporadic/Uncertain","Africa",2024-09-03
+"São Tomé and Príncipe","Sporadic/Uncertain","Africa",2024-09-03
+"Senegal","Sporadic/Uncertain","Africa",2024-09-03
+"Seychelles","Sporadic/Uncertain","Africa",2024-09-03
+"Sierra Leone","Sporadic/Uncertain","Africa",2024-09-03
+"South Sudan","Sporadic/Uncertain","Africa",2024-09-03
+"Togo","Sporadic/Uncertain","Africa",2024-09-03
+"Uganda","Sporadic/Uncertain","Africa",2024-09-03
+"Zambia","Sporadic/Uncertain","Africa",2024-09-03
+"Zimbabwe","Sporadic/Uncertain","Africa",2024-09-03
+"Angola","Risk varies by region","Africa",2024-09-03
+"Anguilla","Frequent/Continuous","Americas",2024-09-03
+"Antigua and Barbuda","Frequent/Continuous","Americas",2024-09-03
+"Aruba","Frequent/Continuous","Americas",2024-09-03
+"Bahamas","Frequent/Continuous","Americas",2024-09-03
+"Barbados","Frequent/Continuous","Americas",2024-09-03
+"Belize","Frequent/Continuous","Americas",2024-09-03
+"Bolivia","Frequent/Continuous","Americas",2024-09-03
+"Brazil","Frequent/Continuous","Americas",2024-09-03
+"British Virgin Islands","Frequent/Continuous","Americas",2024-09-03
+"Cayman Islands","Frequent/Continuous","Americas",2024-09-03
+"Colombia","Frequent/Continuous","Americas",2024-09-03
+"Costa Rica","Frequent/Continuous","Americas",2024-09-03
+"Cuba","Frequent/Continuous","Americas",2024-09-03
+"Dominica","Frequent/Continuous","Americas",2024-09-03
+"Dominican Republic","Frequent/Continuous","Americas",2024-09-03
+"Ecuador","Frequent/Continuous","Americas",2024-09-03
+"El Salvador","Frequent/Continuous","Americas",2024-09-03
+"French Guiana","Frequent/Continuous","Americas",2024-09-03
+"Grenada","Frequent/Continuous","Americas",2024-09-03
+"Guadeloupe","Frequent/Continuous","Americas",2024-09-03
+"Guatemala","Frequent/Continuous","Americas",2024-09-03
+"Guyana","Frequent/Continuous","Americas",2024-09-03
+"Haiti","Frequent/Continuous","Americas",2024-09-03
+"Honduras","Frequent/Continuous","Americas",2024-09-03
+"Jamaica","Frequent/Continuous","Americas",2024-09-03
+"Martinique","Frequent/Continuous","Americas",2024-09-03
+"Netherlands Antilles","Frequent/Continuous","Americas",2024-09-03
+"Nicaragua","Frequent/Continuous","Americas",2024-09-03
+"Panama","Frequent/Continuous","Americas",2024-09-03
+"Paraguay","Frequent/Continuous","Americas",2024-09-03
+"Puerto Rico","Frequent/Continuous","Americas",2024-09-03
+"Saint Barthelemy","Frequent/Continuous","Americas",2024-09-03
+"Saint Kitts and Nevis","Frequent/Continuous","Americas",2024-09-03
+"Saint Lucia","Frequent/Continuous","Americas",2024-09-03
+"Saint Maarten","Frequent/Continuous","Americas",2024-09-03
+"Saint Vincent and the Grenadines","Frequent/Continuous","Americas",2024-09-03
+"Suriname","Frequent/Continuous","Americas",2024-09-03
+"Trinidad and Tobago","Frequent/Continuous","Americas",2024-09-03
+"Turks and Caicos","Frequent/Continuous","Americas",2024-09-03
+"United States Virgin Islands","Frequent/Continuous","Americas",2024-09-03
+"Venezuela","Frequent/Continuous","Americas",2024-09-03
+"Bermuda","Sporadic/Uncertain","Americas",2024-09-03
+"Curacao","Sporadic/Uncertain","Americas",2024-09-03
+"Montserrat","Sporadic/Uncertain","Americas",2024-09-03
+"Uruguay","Sporadic/Uncertain","Americas",2024-09-03
+"Argentina","Risk varies by region","Americas",2024-09-03
+"Chile","Risk varies by region","Americas",2024-09-03
+"Mexico","Risk varies by region","Americas",2024-09-03
+"Peru","Risk varies by region","Americas",2024-09-03
+"United States","Risk varies by region","Americas",2024-09-03
+"Bangladesh","Frequent/Continuous","Asia",2024-09-03
+"Bhutan","Frequent/Continuous","Asia",2024-09-03
+"Brunei Darussalam","Frequent/Continuous","Asia",2024-09-03
+"Cambodia","Frequent/Continuous","Asia",2024-09-03
+"Hong Kong","Frequent/Continuous","Asia",2024-09-03
+"India","Frequent/Continuous","Asia",2024-09-03
+"Indonesia","Frequent/Continuous","Asia",2024-09-03
+"Lao People's Democratic Republic","Frequent/Continuous","Asia",2024-09-03
+"Malaysia","Frequent/Continuous","Asia",2024-09-03
+"Myanmar","Frequent/Continuous","Asia",2024-09-03
+"Nepal","Frequent/Continuous","Asia",2024-09-03
+"Philippines","Frequent/Continuous","Asia",2024-09-03
+"Singapore","Frequent/Continuous","Asia",2024-09-03
+"Sri Lanka","Frequent/Continuous","Asia",2024-09-03
+"Taiwan","Frequent/Continuous","Asia",2024-09-03
+"Thailand","Frequent/Continuous","Asia",2024-09-03
+"Timor-Leste","Frequent/Continuous","Asia",2024-09-03
+"Vietnam","Frequent/Continuous","Asia",2024-09-03
+"Yemen","Frequent/Continuous","Asia",2024-09-03
+"Afghanistan","Sporadic/Uncertain","Asia",2024-09-03
+"Aksai Chin","Sporadic/Uncertain","Asia",2024-09-03
+"Iran (Islamic Republic of)","Sporadic/Uncertain","Asia",2024-09-03
+"Jammu and Kashmir","Sporadic/Uncertain","Asia",2024-09-03
+"Japan","Sporadic/Uncertain","Asia",2024-09-03
+"Macau","Sporadic/Uncertain","Asia",2024-09-03
+"Oman","Sporadic/Uncertain","Asia",2024-09-03
+"Korea (Republic of)","Sporadic/Uncertain","Asia",2024-09-03
+"China","Risk varies by region","Asia",2024-09-03
+"Pakistan","Risk varies by region","Asia",2024-09-03
+"Saudi Arabia","Risk varies by region","Asia",2024-09-03
+"France","Sporadic/Uncertain","Europe",2024-09-03
+"Italy","Sporadic/Uncertain","Europe",2024-09-03
+"Madeira Islands","Sporadic/Uncertain","Europe",2024-09-03
+"Spain","Sporadic/Uncertain","Europe",2024-09-03
+"American Samoa","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Cook Islands","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Fiji","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"French Polynesia","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Maldives","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Marshall Islands","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Micronesia (Federated States of)","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"New Caledonia","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Palau","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Papua New Guinea","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Solomon Islands","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Tonga","Frequent/Continuous","Oceania/Pacific Islands",2024-09-03
+"Guam","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Kiribati","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Nauru","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Niue","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Northern Mariana Islands","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Samoa","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Tokelau","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Tuvalu","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Vanuatu","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Wallis and Futuna","Sporadic/Uncertain","Oceania/Pacific Islands",2024-09-03
+"Australia","Risk varies by region","Oceania/Pacific Islands",2024-09-03
