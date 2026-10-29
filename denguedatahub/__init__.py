@@ -22,3 +22,4 @@ from .load_india_annual_data import load_india_annual_data
 from .load_korea_dengue import load_korea_dengue
 from .load_level_of_risk import load_level_of_risk
 from .load_philippines_daily_data import load_philippines_daily_data
+from .load_singapore_weekly_data import load_singapore_weekly_data
