@@ -8,7 +8,7 @@ def test_load_srilanka_2020():
     df = load_srilanka_2020()
 
     assert isinstance(df, pd.DataFrame)
-    assert df.shape == (1316, 6)
+    assert df.shape == (1326, 6)
 
     assert df.columns.tolist() == [
         "year",
