@@ -11,9 +11,31 @@ def load_srilanka_weekly_data():
     Returns
     -------
     pandas.DataFrame
-        Weekly dengue cases by district, with columns:
-        year, week, start.date, end.date, district, cases.
-    """
-    data_path = Path(__file__).resolve().parent / "data" / "srilanka_weekly_data.csv"
+        Weekly dengue cases by district.
 
-    return pd.read_csv(data_path)
+        Columns:
+        - year: float64
+        - week: float64
+        - start.date: string
+        - end.date: string
+        - district: string
+        - cases: float64
+    """
+
+    data_path = (
+        Path(__file__).resolve().parent
+        / "data"
+        / "srilanka_weekly_data.csv"
+    )
+
+    return pd.read_csv(
+        data_path,
+        dtype={
+            "year": "float64",
+            "week": "float64",
+            "start.date": str,
+            "end.date": str,
+            "district": str,
+            "cases": "float64",
+        },
+    )
