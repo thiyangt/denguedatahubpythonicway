@@ -1,59 +1,32 @@
 
 from pathlib import Path
+
 import pandas as pd
 
 
 def load_americas_annual_data():
     """
-    Load and reshape annual dengue data for the Americas.
+    Load the annual dengue dataset for the Americas.
 
     Returns
     -------
     pandas.DataFrame
-        Data containing region, country, year,
-        indicator type, and cases.
+        A dataset containing 899,134 records and five columns:
+        region, country, type, cases, and year.
+
+        All columns preserve the original R character
+        data types. Missing values in cases are retained.
     """
 
-    data_path = Path(__file__).parent / "data" / "americas.csv"
-
-    df = pd.read_csv(data_path)
-
-
-    indicator_types = df.iloc[0, 2:].tolist()
-
-    country_data = df.iloc[2:54].copy()
-
-    country_data = country_data.rename(
-        columns={
-            df.columns[0]: "region",
-            df.columns[1]: "country"
-        }
+    data_path = (
+        Path(__file__).resolve().parent
+        / "data"
+        / "americas_annual_data.csv"
     )
 
-    value_columns = country_data.columns[2:]
-
-    column_info = pd.DataFrame({
-        "column": value_columns,
-        "year": [int(col.split(".")[0]) for col in value_columns],
-        "type": indicator_types
-    })
-
-    long_data = country_data.melt(
-        id_vars=["region", "country"],
-        value_vars=value_columns,
-        var_name="column",
-        value_name="cases"
+    return pd.read_csv(
+        data_path,
+        dtype=str,
+        keep_default_na=False,
+        na_values=[""],
     )
-
-    long_data = long_data.merge(
-        column_info,
-        on="column",
-        how="left",
-        validate="many_to_one"
-    )
-
-    long_data = long_data[
-        ["region", "country", "year", "type", "cases"]
-    ]
-
-    return long_data
